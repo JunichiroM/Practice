@@ -10,10 +10,16 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            //            Text("iphoneアプリ開発集中講座")
+            //            //背景をオレンジで塗る
+            //                .background(Color.orange)
+            //            //枠(フレーム)作成
+            //                .frame(width: 300, height: 300)
+            Text("iPhoneアプリ開発集中講座")
+            //枠(フレーム)作成
+                .frame(width: 300, height: 300)
+            //背景をオレンジで塗る
+                .background(Color.orange)
         }
         .padding()
     }
